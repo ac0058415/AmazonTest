@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonTest">
+	<test name="HomePage">
+		<!-- groups>
+			<run>
+				<include name="Links"></include>
+				<include name="SignIn"></include>
+				<include name="Search"></include>
+			</run>
+		</groups-->
+		<classes>
+			<class name="com.testcases.HomePageValidations">
+				<methods>
+					<!-- exclude name="signInNegative"></exclude-->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+
+	<!-- test name="Sanity">
+		<classes>
+			<class name="com.testcases.OpenAmazon" />
+		</classes>
+	</test -->
+</suite> <!-- Suite -->  
